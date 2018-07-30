@@ -1,6 +1,7 @@
 {
-  "name": "bootstrap-ui-datetime-picker",
-  "url": "https://github.com/Gillardo/bootstrap-ui-datetime-picker",
+  "name": "@nsoft/bootstrap-ui-datetime-picker",
+  "url": "https://github.com/seven-cd/bootstrap-ui-datetime-picker",
+  "repository": "https://github.com/seven-cd/bootstrap-ui-datetime-picker",
   "version": "1.1.0",
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -9,5 +10,8 @@
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "^0.7.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
